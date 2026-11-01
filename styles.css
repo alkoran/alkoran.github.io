@@ -150,8 +150,8 @@ a:focus-visible {
 
 .project-row {
   display: grid;
-  grid-template-columns: minmax(280px, 0.95fr) minmax(300px, 1.05fr);
-  gap: clamp(32px, 6vw, 72px);
+  grid-template-columns: minmax(340px, 1fr) minmax(300px, 1fr);
+  gap: clamp(32px, 5vw, 56px);
   align-items: center;
   padding-block: 44px;
   border-top: 1px solid var(--line);
@@ -256,7 +256,8 @@ a:focus-visible {
 
 .project-hero-figure img {
   width: 100%;
-  max-height: 650px;
+  height: auto;
+  max-height: none;
   object-fit: contain;
 }
 
@@ -311,7 +312,7 @@ a:focus-visible {
   .site-header nav { gap: 16px; font-size: 0.9rem; }
   .intro { padding-block: 54px 52px; }
   .intro-statement { font-size: clamp(2.4rem, 11vw, 3.7rem); }
-  .project-row { grid-template-columns: 1fr; gap: 24px; padding-block: 34px; }
+  .project-row { grid-template-columns: minmax(0, 1fr); gap: 24px; padding-block: 34px; }
   .projects-page { padding-top: 42px; }
   .project-page { padding-top: 38px; }
   .back-link { margin-bottom: 38px; }
