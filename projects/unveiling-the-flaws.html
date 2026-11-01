@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Unveiling the Flaws, a critical analysis of initialization effects in time-series anomaly detection."><meta name="theme-color" content="#fafaf8">
+    <title>Unveiling the Flaws — Alexander Koran</title><link rel="icon" href="../favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="../styles.css"><script src="../script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header shell"><a class="site-name" href="../index.html">Alexander Koran</a><nav aria-label="Primary navigation"><a href="../index.html">About</a><a href="../projects.html" aria-current="page">Projects</a><a href="mailto:alexanderskoran@gmail.com">Email</a></nav></header>
+    <main id="main" class="shell project-page">
+      <a class="back-link" href="../projects.html"><span aria-hidden="true">←</span> All projects</a>
+      <header class="project-header"><h1 class="long-title">Unveiling the Flaws: A Critical Analysis of Initialization Effect on Time Series Anomaly Detection</h1><p>Examining how seemingly routine experimental choices can overshadow claimed improvements in anomaly-detection models.</p><p class="project-links"><a href="https://arxiv.org/abs/2408.06620" rel="noreferrer">arXiv paper <span aria-hidden="true">↗</span></a></p></header>
+      <figure class="project-hero-figure"><img src="../assets/unveiling-flaws-seed-figure.png" alt="F1 scores for GDN and MTAD-GAT on the SWaT dataset across 25 random seeds"><figcaption>F1 scores for GDN and MTAD-GAT on SWaT across 25 random seeds. Figure 2 from the paper.</figcaption></figure>
+      <div class="project-article-grid project-article-single"><article class="project-article"><h2>Abstract</h2><p>Deep learning for time-series anomaly detection (TSAD) has gained significant attention over the past decade. Despite the reported improvements in several papers, the practical application of these models remains limited. Recent studies have cast doubt on these models, attributing their results to flawed evaluation techniques. However, the impact of initialization has largely been overlooked. This paper provides a critical analysis of the initialization effects on TSAD model performance. Our extensive experiments reveal that TSAD models are highly sensitive to hyperparameters such as window size, seed number, and normalization. This sensitivity often leads to significant variability in performance, which can be exploited to artificially inflate the reported efficacy of these models. We demonstrate that even minor changes in initialization parameters can result in performance variations that overshadow the claimed improvements from novel model architectures. Our findings highlight the need for rigorous evaluation protocols and transparent reporting of preprocessing steps to ensure the reliability and fairness of anomaly detection methods. This paper calls for a more cautious interpretation of TSAD advancements and encourages the development of more robust and transparent evaluation practices to advance the field and its practical applications.</p></article></div>
+      <nav class="project-pagination" aria-label="Project navigation"><a href="exact-group-models.html"><span aria-hidden="true">←</span> Previous: Exact group models</a><a href="svm-uncertainty-quantification.html">Next: SVM uncertainty quantification <span aria-hidden="true">→</span></a></nav>
+    </main>
+    <footer class="site-footer shell"><span>Alexander Koran</span><span>© <span id="current-year">2026</span></span></footer>
+  </body>
+</html>

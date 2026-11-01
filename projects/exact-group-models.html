@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Research on how fitting choices shape the predictive cost of exact group models."><meta name="theme-color" content="#fafaf8">
+    <title>Exact group models — Alexander Koran</title><link rel="icon" href="../favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="../styles.css"><script src="../script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header shell"><a class="site-name" href="../index.html">Alexander Koran</a><nav aria-label="Primary navigation"><a href="../index.html">About</a><a href="../projects.html" aria-current="page">Projects</a><a href="mailto:alexanderskoran@gmail.com">Email</a></nav></header>
+    <main id="main" class="shell project-page">
+      <a class="back-link" href="../projects.html"><span aria-hidden="true">←</span> All projects</a>
+      <header class="project-header"><h1 class="long-title">Fitting Choices Shape the Predictive Cost of Exact Group Models</h1><p>Separating the cost of exact group structure from the consequences of how that structure is fitted.</p></header>
+      <figure class="project-hero-figure"><img src="../assets/exact-group-refit.png" alt="Exact group maps refitted to observed feature transformations using a shared orthogonal change of basis"><figcaption>Refitting exact group maps to observed feature transformations while preserving the representation type and every group law.</figcaption></figure>
+      <div class="project-article-grid project-article-single"><article class="project-article"><h2>Abstract</h2><p>Linear models of image transformations provide a way to study how pretrained visual features respond to changes in an image. Enforcing exact group composition can worsen their predictions, but the resulting loss may reflect how the model is fitted rather than an inherent incompatibility between the features and the group laws. We investigate this distinction using orthogonal group models in fixed reduced spaces of frozen OpenCLIP, DINOv2, and SigLIP features. In spatial experiments, local power-repair procedures preserve more predictive accuracy than enforcing consistent rotations or constructing our full exact reference. We then refit the exact families through a shared orthogonal change of basis, preserving their representation type and every group law. Across spatial evaluation settings, this removes 29.3–42.8% of the exact reference’s excess prediction error relative to independently fitted maps. Independent orthogonal maps fitted to the same prediction objective remain more accurate, leaving a residual gap between the tested procedures. Controlled color experiments further show that prediction fitting outperforms matrix matching under the same optimization budget. Better exact predictions improve action identification over the reference, while the tested category-recognition task shows no additional benefit. Overall, the observed prediction penalty of exact group models depends materially on how they are fitted and cannot be attributed to the group laws alone.</p></article></div>
+      <nav class="project-pagination" aria-label="Project navigation"><a href="vlaad.html"><span aria-hidden="true">←</span> Previous: VLAAD</a><a href="unveiling-the-flaws.html">Next: Unveiling the Flaws <span aria-hidden="true">→</span></a></nav>
+    </main>
+    <footer class="site-footer shell"><span>Alexander Koran</span><span>© <span id="current-year">2026</span></span></footer>
+  </body>
+</html>
