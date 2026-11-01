@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Continual-DreamerV3, a collaborative reinforcement-learning project adapting DreamerV3 through permanent-transient critic decoupling."><meta name="theme-color" content="#fafaf8">
+    <title>Continual-DreamerV3 — Alexander Koran</title><link rel="icon" href="../favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="../styles.css?v=2"><script src="../script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header shell"><a class="site-name" href="../index.html">Alexander Koran</a><nav aria-label="Primary navigation"><a href="../index.html">About</a><a href="../projects.html" aria-current="page">Projects</a><a href="mailto:alexanderskoran@gmail.com">Email</a></nav></header>
+    <main id="main" class="shell project-page">
+      <a class="back-link" href="../projects.html"><span aria-hidden="true">←</span> All projects</a>
+      <header class="project-header"><h1 class="long-title">Dream On: DreamerV3 for Continual Reinforcement Learning via Permanent-Transient Critic Decoupling</h1><p>Adapting DreamerV3 to retain prior knowledge while learning a sequence of reinforcement-learning tasks.</p><p class="project-links"><a href="../files/dream-on-continual-dreamerv3-report.pdf" target="_blank" rel="noreferrer">Read report <span aria-hidden="true">↗</span></a><span aria-hidden="true">·</span><a href="../files/dream-on-continual-dreamerv3-presentation.mp4" target="_blank" rel="noreferrer">Watch presentation <span aria-hidden="true">↗</span></a><span aria-hidden="true">·</span><a href="../files/dream-on-continual-dreamerv3-slides.pptx" download>Download slides <span aria-hidden="true">↓</span></a></p></header>
+      <figure class="project-hero-figure"><img src="../assets/continual-dreamerv3-results.webp" alt="Evaluation returns for Continual-DreamerV3, original DreamerV3, and original DreamerV3 with reset across five alternating Walker tasks"><figcaption>Performance across alternating Walker Stand and Walker Walk tasks. Continual-DreamerV3 adapts to the second task and retains prior task knowledge more consistently than the original model. Figure 1 from the report.</figcaption></figure>
+      <div class="project-article-grid project-article-single"><article class="project-article"><h2>Project overview</h2><p>In this collaborative COMP 579 project with Zihan Wang and Thomas Lai, completed in April 2024, we adapted DreamerV3 for continual reinforcement learning by splitting its critic into transient and permanent value functions. The transient critic tracks current information while the permanent critic retains longer-term knowledge. We evaluated Continual-DreamerV3 on DeepMind Control Suite Walker Stand and Walker Walk tasks that alternated every 100,000 training steps, under the simplifying assumption that task boundaries were known. Across these experiments, the decoupled model retained prior behavior and adapted to task changes more reliably than the original DreamerV3 baseline. Additional experiments found that selectively reinitializing the value function at a task transition was particularly effective.</p></article></div>
+      <nav class="project-pagination" aria-label="Project navigation"><a href="unveiling-the-flaws.html"><span aria-hidden="true">←</span> Previous: Unveiling the Flaws</a><a href="svm-uncertainty-quantification.html">Next: SVM uncertainty quantification <span aria-hidden="true">→</span></a></nav>
+    </main>
+    <footer class="site-footer shell"><span>Alexander Koran</span><span>© <span id="current-year">2026</span></span></footer>
+  </body>
+</html>

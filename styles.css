@@ -243,6 +243,12 @@ a:focus-visible {
 }
 
 .project-links { margin-top: 24px; }
+.project-links a {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.2em;
+  white-space: nowrap;
+}
 .project-links > span { margin-inline: 8px; color: var(--line); }
 
 .project-hero-figure {
