@@ -242,6 +242,18 @@ a:focus-visible {
   font-size: clamp(1.05rem, 2vw, 1.28rem);
 }
 
+.project-header > p.project-date {
+  margin: 0 0 16px;
+  font-size: 0.92rem;
+  letter-spacing: 0.02em;
+}
+
+.project-header > p.project-venue {
+  margin-top: 10px;
+  color: var(--ink);
+  font-size: 1rem;
+}
+
 .project-links { margin-top: 24px; }
 .project-links a {
   display: inline-flex;
